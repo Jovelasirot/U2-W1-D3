@@ -1,0 +1,149 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* header */
+header {
+  background-color: #f3edd8;
+  height: 100px;
+  width: auto;
+  margin: -8px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: #8c4e27;
+  width: auto;
+  height: auto;
+  background-color: #ffdf7f;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#shopNav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+/* tittle */
+h1 {
+  color: #8c4e27;
+  font-size: 3rem;
+}
+
+/* card */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f3edd8;
+  width: 260px;
+  height: 300px;
+  border-radius: 60px;
+  margin-bottom: 30px;
+}
+
+.textCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  color: #8c4e27;
+  font-size: 1rem;
+}
+.textCardLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textCardLeft span:first-of-type {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.textCardLeft span:last-of-type {
+  font-size: 13px;
+}
+.textCard span:last-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#honeyImg {
+  display: flex;
+  flex-grow: 1;
+  border-radius: 60px 60px 0 0;
+  width: 100%;
+}
+
+.card button {
+  width: 70%;
+  font-size: 1.1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0;
+  border: none;
+  border-radius: 30px;
+  color: #8c4e27;
+  background-color: #ffdf7f;
+  margin-bottom: 10px;
+}
+
+/* products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* second title */
+h2 {
+  color: #8c4e27;
+  font-size: 3rem;
+}
+
+/* article */
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f3edd8;
+  color: #8c4e27;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+  margin: -8px;
+}
+
+h3 {
+  color: #8c4e27;
+  font-size: 1.5rem;
+}
+
+article span {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
